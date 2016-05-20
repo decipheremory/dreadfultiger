@@ -14,4 +14,7 @@ git -C /home/emory/workspace init &&
 git -C /home/emory/workspace remote add origin "" &&
 # ([ -z "" ] || git -C /home/emory/workspace pull origin "") &&
 # ([ -z "" ] || git -C /home/emory/workspace checkout -b "") &&
+npm set registry https://npm.363-283.io &&
+npm set cafile /opt/dreadfultiger/Downloads/ca.cert &&
+
 true
